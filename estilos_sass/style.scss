@@ -1,0 +1,41 @@
+@use 'variables' as *;
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #E5E5E5;
+    #imagensita{
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    #titulo_ppal{
+        justify-content: center;
+        color: $color-ppal;
+        background-color: $fondo-titulos;
+        text-align: center;
+    }
+}
+
+.subtitulo{
+    background-color: $fondo-titulos;
+    color: $color-ppal;
+}
+
+footer{
+    display: flex;
+    background-color: $color-ppal;
+    color: white;
+    justify-content: center;
+    height: 2rem;
+    p{
+        padding-top: 0.5rem;
+    }
+    div{
+        padding-top: 0.4rem;
+        padding-left: 1.5rem;
+    }
+}

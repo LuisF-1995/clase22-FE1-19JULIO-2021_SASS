@@ -1,0 +1,22 @@
+@use 'variables' as *;
+header {
+  background-color: #E5E5E5;
+}
+
+header #imagensita {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header #titulo_ppal {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #005677;
+}
+/*# sourceMappingURL=style.css.map */
