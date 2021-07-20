@@ -1,0 +1,37 @@
+header{
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+#titulo_ppal{
+    background-color: #C4C4C4;
+    text-align: center;
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.subtitulo{
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: left;
+    size: 20px;
+}
+
+footer{
+    background-color:  #005677;
+    text-align: center;
+    width: 1440px;
+    height: 37px;
+}
+
+#direccion{
+    color: white;
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+.alineacion{
+    margin-top: 10px;
+}
