@@ -1,18 +1,26 @@
 @use 'variables' as *;
 
 *{
-    margin: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
 }
 
 header{
     background-color: #E5E5E5;
+    height: 11.81rem;
+    margin-bottom: 7.3rem;
     #imagensita{
         display: flex;
         position: relative;
         justify-content: center;
     }
-    #titulo_ppal{
+    h1{
+        height: 3.75rem;
         justify-content: center;
         color: $color-ppal;
         background-color: $fondo-titulos;
@@ -25,12 +33,43 @@ header{
     color: $color-ppal;
 }
 
+main{
+    display: flex;
+    width: 65rem;
+    position: relative;
+    left: 13.3rem;
+    flex-direction: column;
+    section{
+        margin-bottom: 1.87rem;
+        p{
+            display: inline-flex;
+        }
+        ul{
+            display: flex;
+            position: relative;
+            left: 2rem;
+            margin-top: 1.18rem;
+            flex-direction: column;
+            gap: 0.625rem;
+            span{
+                font-family: "Times New Roman";
+                font-style: italic;
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 84.69%;
+            }
+        }
+    }
+    
+}
+
 footer{
     display: flex;
     background-color: $color-ppal;
     color: white;
     justify-content: center;
     height: 2rem;
+    margin-top: 10.18rem;
     p{
         padding-top: 0.5rem;
     }
